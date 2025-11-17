@@ -3,25 +3,15 @@ This repository showcases the complete Salesforce configuration and customizatio
 📘 Project Introduction
 
 The company required a custom Travel Approval App to solve challenges caused by their legacy email-and-spreadsheet approach to handling travel requests. The lack of a centralized system resulted in:
-
 No visibility into travel requests across units
-
 Missing or inconsistent approval steps
-
 No structured reporting or trend analysis
-
 Business Requirements
-
 The new system needed to ensure:
-
 Employees must submit future travel requests electronically
-
 Each request includes estimated travel expenses (airfare, hotels, rental cars, etc.)
-
 All requests require manager approval, and travel coordinator approval for out-of-state trips
-
 Managers must access dashboards and reports for travel KPIs
-
 Both managers and employees must use the app on desktop and mobile
 
 Final Outcome
@@ -36,49 +26,31 @@ A complete Travel Approval App prototype was built that:
 
 ✨ Key Features Implemented
 1. Customized & Configured the Travel App
-
 Created a custom Lightning App named Travel App
-
 Added navigation items for Travel Approvals, Departments, Reports, Dashboards, etc.
-
 Ensured the app is optimized for mobile & Lightning Experience
-
 🗂️ Data Model Configuration
+
 2. Custom Objects
 Department
-
 Stores department-level details:
-
 Department Name
-
 Cost Center Code
 
 Travel Approval
-
 Captures all travel request details:
-
 Purpose of Trip
-
 Travel Destination
-
 Trip Start/End Dates
-
 Out-of-State indicator
-
 Status
-
 Total Estimated Expenses
 
 Expense Item (Third Object)
-
 Created as a Master-Detail child of Travel Approval to store:
-
 Airfare cost
-
 Hotel cost
-
 Rental car cost
-
 Other expenses
 
 Total Amount
